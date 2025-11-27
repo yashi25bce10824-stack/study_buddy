@@ -41,4 +41,5 @@ def mark_task_done(number):
 
     data["tasks"][number]["done"] = True
     save_data(data)
+
     print("Task marked as done!")
