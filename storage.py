@@ -35,4 +35,5 @@ def load_data():
 def save_data(data):
     # Save the given dictionary back into the json file
     with open(DATA_FILE, "w") as f:
+
         json.dump(data, f, indent=4)
