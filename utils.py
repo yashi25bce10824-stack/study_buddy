@@ -7,4 +7,5 @@ def get_input(message):
 
 def line():
     # Just prints a line to separate sections
+
     print("------------------------------")
